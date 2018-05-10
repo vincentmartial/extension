@@ -1,0 +1,351 @@
+#N canvas 266 139 1078 705 10;
+#X msg 74 135 roomsize \$1;
+#X msg 73 157 damping \$1;
+#X msg 73 179 width \$1;
+#X msg 73 201 wet \$1;
+#X msg 73 223 dry \$1;
+#X msg 73 245 print;
+#X msg 73 267 freeze \$1;
+#X msg 73 289 bypass \$1;
+#X obj 106 102 hsl 80 10 0 127 0 0 \$0-rosize \$0-rrosize roomsize
+7 5 0 10 -70936 -261676 -262068 7900 0;
+#X obj 38 134 / 127;
+#X obj 106 117 hsl 80 10 0 127 0 0 \$0-dampingg \$0-rdamping damping
+7 5 0 10 -70936 -261676 -262068 6300 0;
+#X obj 37 156 / 127;
+#X obj 196 102 hsl 80 10 0 127 0 0 \$0-width \$0-rwidth width 7 5 0
+10 -70936 -261676 -262068 2400 0;
+#X obj 37 179 / 127;
+#X obj 196 116 hsl 80 10 0 127 0 0 \$0-wett \$0-rwett wet 7 5 0 10
+-70936 -261676 -262068 5500 0;
+#X obj 36 201 / 127;
+#X obj 285 102 hsl 80 10 0 127 0 0 \$0-dryy \$0-rdryy dry 7 5 0 10
+-70936 -261676 -262068 400 0;
+#X obj 35 221 / 127;
+#X obj 284 114 tgl 12 0 \$0-freez \$0-rfreez freez 17 7 0 10 -70936
+-261676 -70936 0 1;
+#X obj 333 114 tgl 12 0 \$0-byp \$0-rbyp byp 17 7 0 10 -70936 -261676
+-70936 0 1;
+#X obj 35 394 - 100;
+#X obj 35 374 env~;
+#X obj 35 413 outlet;
+#X obj 81 394 - 100;
+#X obj 81 374 env~;
+#X obj 81 413 outlet;
+#X obj 162 324 freeverb~;
+#X obj 284 129 hradio 10 1 0 8 empty empty empty 0 -8 0 10 -92840 -261676
+-1 4;
+#X msg 487 94 save;
+#X obj 572 220 route 0 1 2 3 4 5 6 7;
+#X obj 598 396 prepend load;
+#X obj 486 203 list prepend;
+#X msg 555 177 \$1;
+#X obj 499 113 r \$0-my.hero.preset;
+#X obj 598 425 s \$0-my.hero.preset;
+#X obj 707 220 route 8 9 10 11 12 13 14;
+#N canvas 91 22 588 557 messages 0;
+#X obj 34 47 inlet;
+#X obj 83 47 inlet;
+#X obj 127 47 inlet;
+#X obj 172 47 inlet;
+#X obj 224 48 inlet;
+#X obj 273 48 inlet;
+#X obj 317 48 inlet;
+#X obj 362 48 inlet;
+#X obj 202 541 outlet;
+#X msg 319 85 bsw3 0 \, bmic3 0 \, bdry2 0 \, bdry1 0 \, bTr3 0 \,
+bTl3 0 \, bSr3 0 \, bSl3 0 \, bJr3 0 \, bJl3 0 \, bIr3 0 \, bIl3 0
+\, bTr2 0 \, bTl2 0 \, bJr2 0 \, bJl2 0 \, bSr2 0 \, bSl2 0 \, bIr2
+0 \, bIl2 0 \, bRl5 0 \, bQr5 0 \, bQl5 0 \, bPr5 0 \, bPl5 0 \, bOr5
+0 \, bOl5 0 \, bNr5 0 \, bNl5 0 \, bMr5 0 \, bMl5 0 \, bLr5 0 \, bLl5
+0 \, bKr5 0 \, bKl5 0 \, bHr5 0 \, bHl5 0 \, bGr5 0 \, bGl5 0 \, bFr5
+0 \, bFl5 0 \, bEr5 0 \, bEl5 0 \, bDr5 0 \, bDl5 0 \, bCr5 0 \, bCl5
+0 \, bBr5 0 \, bBl5 0 \, bAr5 0 \, bAl5 0 \, bRr4 0 \, bRl4 0 \, bQr4
+0 \, bQl4 0 \, bPr4 0 \, bPl4 0 \, bOr4 0 \, bOl4 0 \, bNr4 0 \, bNl4
+0 \, bMr4 0 \, bMl4 0 \, bLr4 0 \, bLl4 0 \, bKr4 0 \, bKl4 0 \, bHr4
+0 \, bHl4 0 \, bGr4 0 \, bGl4 0 \, bFr4 0 \, bFl4 0 \, bEr4 0 \, bEl4
+0 \, bDr4 0 \, bDl4 0 \, bCr4 0 \, bCl4 0 \, bBr4 0 \, bBl4 0 \, bAr4
+0 \, bAl4 0 \, bRr3 0 \, bRl3 0 \, bQr3 0 \, bQl3 0 \, bPr3 0 \, bPl3
+0 \, bOr3 0 \, bOl3 0 \, bNr3 0 \, bNl3 0 \, bMr3 0 \, bMl3 0 \, bLr3
+0 \, bLl3 0 \, bKr3 0 \, bKl3 0 \, bHr3 0 \, bHl3 0 \, bGr3 0 \, bGl3
+0 \, bFr3 0 \, bFl3 0 \, bEr3 0 \, bEl3 0.02 \, bDr3 0 \, bDl3 0 \,
+bCr3 0 \, bCl3 0 \, bBr3 0 \, bBl3 0 \, bAr3 0 \, bAl3 0 \, bRr2 0
+\, bRl2 0 \, bQr2 0 \, bQl2 0 \, bPr2 0 \, bPl2 0 \, bOr2 0 \, bOl2
+0 \, bNr2 0 \, bNl2 0 \, bMr2 0 \, bMl2 0 \, bLr2 0 \, bLl2 0 \, bKr2
+0 \, bKl2 0 \, bHr2 0 \, bHl2 0 \, bGr2 0 \, bGl2 0 \, bFr2 0 \, bFl2
+0 \, bEr2 0 \, bEl2 0 \, bDr2 0 \, bDl2 0 \, bCr2 0 \, bCl2 0 \, bBr2
+0 \, bBl2 0 \, bAr2 0 \, bAl2 0 \, bSr1 0 \, bSl1 0 \, bRr1 0 \, bRl1
+0 \, bQr1 0 \, bQl1 0 \, bPr1 0 \, bPl1 0 \, bOr1 0 \, bOl1 0 \, bNr1
+0 \, bNl1 0 \, bMr1 0 \, bMl1 0 \, bLr1 0 \, bLl1 0 \, bKr1 0 \, bKl1
+0 \, bIr1 0 \, bIl1 0 \, bHr1 0 \, bHl1 0 \, bGr1 0 \, bGl1 0 \, bFr1
+0 \, bFl1 0 \, bEr1 0 \, bEl1 0 \, bDr1 0 \, bDl1 0 \, bCr1 0 \, bCl1
+0 \, bBr1 0 \, bBl1 0 \, bAr1 0 \, bAl1 0 \, mQr5 0 \, mQl5 0 \, mPr5
+0 \, mPl5 0 \, mOr5 0 \, mOl5 0 \, mNr5 0 \, mNl5 0 \, mMr5 0 \, mMl5
+0 \, mLr5 0 \, mLl5 0 \, mKr5 0 \, mKl5 0 \, mGr5 0 \, mGl5 0 \, mFr5
+0 \, mFl5 0 \, mEr5 0 \, mEl5 0 \, mDr5 0 \, mDl5 0 \, mCr5 0 \, mCl5
+0 \, mBr5 0 \, mBl5 0 \, mAr5 0 \, mAl5 0 \, mQr4 0 \, mQl4 0 \, mPr4
+0 \, mPl4 0 \, mOr4 0 \, mOl4 0 \, mNr4 0 \, mNl4 0 \, mMr4 0 \, mMl4
+0 \, mLr4 0 \, mLl4 0 \, mKr4 0 \, mKl4 0 \, mGr4 0 \, mGl4 0 \, mFr4
+0 \, mFl4 0 \, mEr4 0 \, mEl4 0 \, mDr4 0 \, mDl4 0 \, mCr4 0 \, mCl4
+0 \, mBr4 0 \, mBl4 0 \, mAr4 0 \, mAl4 0 \, mQr3 0 \, mQl3 0 \, mPr3
+0 \, mPl3 0 \, mOr3 0 \, mOl3 0 \, mNr3 0 \, mNl3 0 \, mMr3 0 \, mMl3
+0 \, mLr3 0 \, mLl3 0 \, mKr3 0 \, mKl3 0 \, mGr3 0 \, mGl3 0.02 \,
+mFr3 0 \, mFl3 0 \, mEr3 0 \, mEl3 0 \, mDr3 0 \, mDl3 0 \, mCr3 0
+\, mCl3 0 \, mBr3 0 \, mBl3 0 \, mAr3 0 \, mAl3 0 \, mQr2 0 \, mQl2
+0 \, mPr2 0 \, mPl2 0 \, mOr2 0 \, mOl2 0 \, mNr2 0 \, mNl2 0 \, mMr2
+0 \, mMl2 0 \, mLr2 0 \, mLl2 0 \, mKr2 0 \, mKl2 0 \, mGr2 0 \, mGl2
+0 \, mFr2 0 \, mFl2 0 \, mEr2 0 \, mEl2 0 \, mDr2 0 \, mDl2 0 \, mCr2
+0 \, mCl2 0 \, mBr2 0 \, mBl2 0 \, mAr2 0 \, mAl2 0 \, mQr1 0 \, mQl1
+0 \, mPr1 0 \, mPl1 0 \, mOr1 0 \, mOl1 0 \, mNr1 0 \, mNl1 0 \, mMr1
+0 \, mMl1 0 \, mLr1 0 \, mLl1 0 \, mKr1 0 \, mKl1 0 \, mGr1 0 \, mGl1
+0 \, mFr1 0 \, mFl1 0 \, mEr1 0 \, mEl1 0 \, mDr1 0 \, mDl1 0 \, mCr1
+0 \, mCl1 0 \, mBr1 0 \, mBl1 0 \, mAr1 0 \, mAl1 0 \,;
+#X msg 364 85;
+#X msg 37 178 byp2 1 \, dry 0 \, wet2 0 \, width2 0 \, damp2 0 \, room2
+0 \,;
+#X msg 88 229 byp 0 \, freez 1 \, dry 0 \, wet 91.6329 \, width 64.3038
+\, damp 62.6962 \, room 127 \,;
+#X msg 133 301 byp 0 \, freez 0 \, dry 0 \, wet 80.3797 \, width 64.3038
+\, damp 99.6709 \, room 127 \,;
+#X msg 174 84 dry3 57.8734 \, wet3 33.7595 \, width3 38.5823 \, damp3
+0 \, room3 127 \,;
+#X msg 225 83 dry3 6.43038 \, wet3 88.4177 \, width3 38.5823 \, damp3
+101.278 \, room3 127 \,;
+#X msg 273 84 byp2 0 \, freez2 0 \, dry 0 \, wet2 96.4557 \, width2
+65.9114 \, damp2 41.7975 \, room2 127 \,;
+#X connect 0 0 11 0;
+#X connect 1 0 12 0;
+#X connect 2 0 13 0;
+#X connect 3 0 14 0;
+#X connect 4 0 15 0;
+#X connect 5 0 16 0;
+#X connect 6 0 9 0;
+#X connect 7 0 10 0;
+#X connect 9 0 8 0;
+#X connect 10 0 8 0;
+#X connect 11 0 8 0;
+#X connect 12 0 8 0;
+#X connect 13 0 8 0;
+#X connect 14 0 8 0;
+#X connect 15 0 8 0;
+#X connect 16 0 8 0;
+#X restore 598 368 pd messages;
+#N canvas 437 456 450 300 messages 0;
+#X obj 34 47 inlet;
+#X obj 83 47 inlet;
+#X obj 127 47 inlet;
+#X obj 172 47 inlet;
+#X obj 224 48 inlet;
+#X obj 273 48 inlet;
+#X obj 317 48 inlet;
+#X obj 362 48 inlet;
+#X obj 196 132 outlet;
+#X msg 37 84;
+#X msg 83 85;
+#X msg 126 85;
+#X msg 174 84;
+#X msg 224 83;
+#X msg 273 84;
+#X msg 319 85;
+#X msg 364 85;
+#X connect 0 0 9 0;
+#X connect 1 0 10 0;
+#X connect 2 0 11 0;
+#X connect 3 0 12 0;
+#X connect 4 0 13 0;
+#X connect 5 0 14 0;
+#X connect 6 0 15 0;
+#X connect 7 0 16 0;
+#X connect 9 0 8 0;
+#X connect 10 0 8 0;
+#X connect 11 0 8 0;
+#X connect 12 0 8 0;
+#X connect 13 0 8 0;
+#X connect 14 0 8 0;
+#X connect 15 0 8 0;
+#X connect 16 0 8 0;
+#X restore 703 379 pd messages;
+#X msg 534 265 set;
+#X obj 495 265 + 1;
+#X obj 495 289 gate 16;
+#N canvas 729 164 450 300 save.me 0;
+#X obj 37 15 r \$0-rosize;
+#X obj 37 55 s \$0-rrosize;
+#X obj 38 77 r \$0-dampingg;
+#X obj 38 119 s \$0-rdamping;
+#X obj 38 140 r \$0-width;
+#X obj 38 181 s \$0-rwidth;
+#X obj 38 203 r \$0-wett;
+#X obj 38 245 s \$0-rwett;
+#X obj 197 14 r \$0-dryy;
+#X obj 197 54 s \$0-rdryy;
+#X obj 198 76 r \$0-freez;
+#X obj 198 118 s \$0-rfreez;
+#X obj 198 138 r \$0-byp;
+#X obj 198 180 s \$0-rbyp;
+#X obj 37 35 save.me.mmb room3 freev3;
+#X obj 38 98 save.me.mmb damp3 freev3;
+#X obj 38 160 save.me.mmb width3 freev3;
+#X obj 38 224 save.me.mmb wet3 freev3;
+#X obj 197 34 save.me.mmb dry3 freev3;
+#X obj 198 97 save.me.mmb freez3 freev3;
+#X obj 198 159 save.me.mmb byp3 freev3;
+#X connect 0 0 14 0;
+#X connect 2 0 15 0;
+#X connect 4 0 16 0;
+#X connect 6 0 17 0;
+#X connect 8 0 18 0;
+#X connect 10 0 19 0;
+#X connect 12 0 20 0;
+#X connect 14 0 1 0;
+#X connect 15 0 3 0;
+#X connect 16 0 5 0;
+#X connect 17 0 7 0;
+#X connect 18 0 9 0;
+#X connect 19 0 11 0;
+#X connect 20 0 13 0;
+#X restore 619 63 pd save.me;
+#X obj 249 128 bng 12 250 50 0 empty empty BOLAS -60 7 0 10 -258113
+-1 -1;
+#X obj 266 128 bng 12 250 50 0 empty empty empty 17 7 0 10 -1 -257985
+-1;
+#X obj 161 47 r~ frvrl3;
+#X obj 213 47 r~ frvrr3;
+#X obj 146 418 s~ frvrbl3;
+#X obj 291 420 s~ frvrbr3;
+#X obj 486 144 my.hero.mmb freev3;
+#X obj 258 273 r~ guitmic;
+#X obj 255 294 *~ 0;
+#X obj 413 491 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X msg 401 449 0.4;
+#X obj 382 408 t b b;
+#X msg 362 395 3;
+#X obj 353 271 r bolaspre;
+#X obj 252 561 *~ 0;
+#X obj 253 542 r~ dom;
+#X obj 298 482 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X msg 375 374 4;
+#X obj 476 401 r~ cordht;
+#X obj 477 430 *~ 0;
+#X obj 537 403 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 290 220 save.me.mmb radrev3 bolas;
+#X msg 499 366 0.6;
+#X msg 454 370 0.8;
+#X msg 441 398 0;
+#X obj 355 293 sel 1 10 4 11 2;
+#X msg 275 450 0.2;
+#X msg 546 359 0.2;
+#X connect 0 0 26 0;
+#X connect 1 0 26 0;
+#X connect 2 0 26 0;
+#X connect 3 0 26 0;
+#X connect 4 0 26 0;
+#X connect 5 0 26 0;
+#X connect 6 0 26 0;
+#X connect 7 0 26 0;
+#X connect 8 0 9 0;
+#X connect 9 0 0 0;
+#X connect 10 0 11 0;
+#X connect 11 0 1 0;
+#X connect 12 0 13 0;
+#X connect 13 0 2 0;
+#X connect 14 0 15 0;
+#X connect 15 0 3 0;
+#X connect 16 0 17 0;
+#X connect 17 0 4 0;
+#X connect 18 0 6 0;
+#X connect 19 0 7 0;
+#X connect 20 0 22 0;
+#X connect 21 0 20 0;
+#X connect 23 0 25 0;
+#X connect 24 0 23 0;
+#X connect 26 0 21 0;
+#X connect 26 0 46 0;
+#X connect 26 1 24 0;
+#X connect 26 1 47 0;
+#X connect 27 0 39 0;
+#X connect 27 0 29 0;
+#X connect 27 0 32 0;
+#X connect 27 0 63 0;
+#X connect 28 0 48 0;
+#X connect 29 0 36 0;
+#X connect 29 1 36 1;
+#X connect 29 2 36 2;
+#X connect 29 3 36 3;
+#X connect 29 4 36 4;
+#X connect 29 5 36 5;
+#X connect 29 6 36 6;
+#X connect 29 7 36 7;
+#X connect 29 8 35 0;
+#X connect 30 0 34 0;
+#X connect 31 0 29 0;
+#X connect 32 0 31 1;
+#X connect 33 0 48 0;
+#X connect 35 0 37 0;
+#X connect 35 1 37 1;
+#X connect 35 2 37 2;
+#X connect 35 3 37 3;
+#X connect 35 4 37 4;
+#X connect 35 5 37 5;
+#X connect 35 6 37 6;
+#X connect 36 0 30 0;
+#X connect 37 0 30 0;
+#X connect 38 0 40 1;
+#X connect 39 0 40 0;
+#X connect 40 0 36 0;
+#X connect 40 1 36 1;
+#X connect 40 2 36 2;
+#X connect 40 3 36 3;
+#X connect 40 4 36 4;
+#X connect 40 5 36 5;
+#X connect 40 6 36 6;
+#X connect 40 7 36 7;
+#X connect 40 8 37 0;
+#X connect 40 9 37 1;
+#X connect 40 10 37 2;
+#X connect 40 11 37 3;
+#X connect 40 12 37 4;
+#X connect 40 13 37 5;
+#X connect 40 14 37 6;
+#X connect 40 15 37 7;
+#X connect 42 0 28 0;
+#X connect 43 0 38 0;
+#X connect 44 0 26 0;
+#X connect 45 0 26 1;
+#X connect 48 0 31 0;
+#X connect 49 0 50 0;
+#X connect 50 0 26 0;
+#X connect 50 0 26 1;
+#X connect 51 0 50 1;
+#X connect 52 0 51 0;
+#X connect 53 0 54 0;
+#X connect 53 1 52 0;
+#X connect 54 0 27 0;
+#X connect 55 0 67 0;
+#X connect 56 0 26 0;
+#X connect 56 0 26 1;
+#X connect 57 0 56 0;
+#X connect 58 0 56 1;
+#X connect 59 0 27 0;
+#X connect 60 0 61 0;
+#X connect 61 0 26 1;
+#X connect 61 0 26 0;
+#X connect 62 0 61 1;
+#X connect 63 0 27 0;
+#X connect 64 0 62 0;
+#X connect 65 0 62 0;
+#X connect 66 0 62 0;
+#X connect 66 0 51 0;
+#X connect 66 0 58 0;
+#X connect 67 0 53 0;
+#X connect 67 1 59 0;
+#X connect 67 2 65 0;
+#X connect 67 3 64 0;
+#X connect 67 4 68 0;
+#X connect 67 5 66 0;
+#X connect 68 0 58 0;
+#X connect 69 0 62 0;
+#X coords 0 -1 1 1 270 42 1 100 100;

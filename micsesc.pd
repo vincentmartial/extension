@@ -1,0 +1,91 @@
+#N canvas 524 385 611 431 10;
+#X obj 102 175 mic3;
+#X obj 104 104 c.meter~ @size 8 70 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @interval 50 @bgcolor
+0.75 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @coldcolor 0 0.6 0 0.8 @tepidcolor
+0.6 0.73 0 0.8 @warmcolor 0.85 0.85 0 0.8 @hotcolor 1 0.6 0 0.8 @overcolor
+1 0 0 0.8;
+#X obj 137 175 mic3;
+#X obj 139 104 c.meter~ @size 8 70 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @interval 50 @bgcolor
+0.75 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @coldcolor 0 0.6 0 0.8 @tepidcolor
+0.6 0.73 0 0.8 @warmcolor 0.85 0.85 0 0.8 @hotcolor 1 0.6 0 0.8 @overcolor
+1 0 0 0.8;
+#X obj 172 175 mic3;
+#X obj 174 104 c.meter~ @size 8 70 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @interval 50 @bgcolor
+0.75 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @coldcolor 0 0.6 0 0.8 @tepidcolor
+0.6 0.73 0 0.8 @warmcolor 0.85 0.85 0 0.8 @hotcolor 1 0.6 0 0.8 @overcolor
+1 0 0 0.8;
+#N canvas 181 306 1031 539 20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -1249 157 save.me.mmb mic1 escargot;
+#X obj -1248 177 save.me.mmb sw1 escargot;
+#X obj -1165 198 save.me.mmb mic2 escargot;
+#X obj -1165 224 save.me.mmb sw2 escargot;
+#X obj -1077 244 save.me.mmb mic3 escargot;
+#X obj -1077 264 save.me.mmb sw3 escargot;
+#X connect 0 0 12 0;
+#X connect 1 0 13 0;
+#X connect 2 0 14 0;
+#X connect 3 0 15 0;
+#X connect 4 0 16 0;
+#X connect 5 0 17 0;
+#X connect 12 0 6 0;
+#X connect 13 0 7 0;
+#X connect 14 0 8 0;
+#X connect 15 0 9 0;
+#X connect 16 0 10 0;
+#X connect 17 0 11 0;
+#X restore 308 157 pd 20-save.me.mmb .........;
+#X obj 125 35 adc~ 1;
+#X obj 160 53 adc~ 2;
+#X obj 195 31 adc~ 3;
+#X obj 102 224 s~ tufmic;
+#X obj 137 263 s~ airmic;
+#X obj 172 297 s~ hydromic;
+#X obj 184 105 vsl 15 50 0 127 0 0 empty empty empty 0 -9 0 10 -154799
+-262130 -1 0 1;
+#X obj 184 159 tgl 15 0 empty empty empty 17 7 0 10 -261234 -1 -1 0
+1;
+#X obj 114 106 vsl 15 50 0 127 0 0 empty empty empty 0 -9 0 10 -154799
+-262130 -1 0 1;
+#X obj 114 160 tgl 15 0 empty empty empty 17 7 0 10 -261234 -1 -1 0
+1;
+#X obj 149 105 vsl 15 50 0 127 0 0 empty empty empty 0 -9 0 10 -154799
+-262130 -1 0 1;
+#X obj 149 159 tgl 15 0 empty empty empty 17 7 0 10 -261234 -1 -1 0
+1;
+#X connect 0 0 1 0;
+#X connect 0 0 10 0;
+#X connect 2 0 3 0;
+#X connect 2 0 11 0;
+#X connect 4 0 5 0;
+#X connect 4 0 12 0;
+#X connect 6 0 15 0;
+#X connect 6 1 16 0;
+#X connect 6 2 17 0;
+#X connect 6 3 18 0;
+#X connect 6 4 13 0;
+#X connect 6 5 14 0;
+#X connect 7 0 0 2;
+#X connect 8 0 2 2;
+#X connect 9 0 4 2;
+#X connect 13 0 6 4;
+#X connect 14 0 6 5;
+#X connect 15 0 6 0;
+#X connect 16 0 6 1;
+#X connect 17 0 6 2;
+#X connect 18 0 6 3;
+#X coords 0 -1 1 1 105 76 2 100 100;

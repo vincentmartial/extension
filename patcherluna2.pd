@@ -1,0 +1,1323 @@
+#N canvas 63 22 981 681 10;
+#X obj 135 129 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname mic1 @presetname slid1L @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 150 129 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid1R @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 186 245 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid10L @mode
+0 @min 0 @max 1 @bgcolor 1 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 201 245 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid10R @mode
+0 @min 0 @max 1 @bgcolor 1 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 235 245 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid18L @mode
+0 @min 0 @max 1 @bgcolor 1 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 250 245 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid18R @mode
+0 @min 0 @max 1 @bgcolor 1 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 136 305 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid3L @mode
+0 @min 0 @max 1 @bgcolor 1 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 151 305 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid3R @mode
+0 @min 0 @max 1 @bgcolor 1 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 235 305 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid19L @mode
+0 @min 0 @max 1 @bgcolor 1 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 250 305 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid19R @mode
+0 @min 0 @max 1 @bgcolor 1 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 137 367 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid4L @mode
+0 @min 0 @max 1 @bgcolor 0.8 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 152 367 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid4R @mode
+0 @min 0 @max 1 @bgcolor 0.8 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 187 367 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid12L @mode
+0 @min 0 @max 1 @bgcolor 0.8 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 202 367 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid12R @mode
+0 @min 0 @max 1 @bgcolor 0.8 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 137 427 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid5L @mode
+0 @min 0 @max 1 @bgcolor 0.6 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 152 427 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid5R @mode
+0 @min 0 @max 1 @bgcolor 0.6 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 187 427 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid13L @mode
+0 @min 0 @max 1 @bgcolor 0.6 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 202 427 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid13R @mode
+0 @min 0 @max 1 @bgcolor 0.6 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 236 427 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid21L @mode
+0 @min 0 @max 1 @bgcolor 0.6 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 251 427 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid21R @mode
+0 @min 0 @max 1 @bgcolor 0.6 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 137 487 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid6L @mode
+0 @min 0 @max 1 @bgcolor 0.5 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 152 487 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid6R @mode
+0 @min 0 @max 1 @bgcolor 0.5 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 187 487 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid14L @mode
+0 @min 0 @max 1 @bgcolor 0.5 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 202 487 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid14R @mode
+0 @min 0 @max 1 @bgcolor 0.5 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 236 487 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid22L @mode
+0 @min 0 @max 1 @bgcolor 0.5 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 251 487 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid22R @mode
+0 @min 0 @max 1 @bgcolor 0.5 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 184 129 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid9L @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 199 129 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid9R @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 233 129 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname mic1 @presetname slid17L @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 248 129 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid17R @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X text 110 100 freeverb;
+#X text 172 100 reverb;
+#X text 223 103 pitch1;
+#X text 271 102 pitch 2;
+#X obj 279 129 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname mic1 @presetname s1l @mode 0
+@min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 294 129 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s1r @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 282 245 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s3l @mode
+0 @min 0 @max 1 @bgcolor 1 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 297 245 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s3r @mode
+0 @min 0 @max 1 @bgcolor 1 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 331 245 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s12l @mode
+0 @min 0 @max 1 @bgcolor 1 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 346 245 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s12r @mode
+0 @min 0 @max 1 @bgcolor 1 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 282 305 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s4l @mode
+0 @min 0 @max 1 @bgcolor 1 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 297 305 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s4r @mode
+0 @min 0 @max 1 @bgcolor 1 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 331 305 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s13l @mode
+0 @min 0 @max 1 @bgcolor 1 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 346 305 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s13r @mode
+0 @min 0 @max 1 @bgcolor 1 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 283 367 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s5l @mode
+0 @min 0 @max 1 @bgcolor 0.8 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 298 367 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s5r @mode
+0 @min 0 @max 1 @bgcolor 0.8 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 332 367 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s14l @mode
+0 @min 0 @max 1 @bgcolor 0.8 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 347 367 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s14r @mode
+0 @min 0 @max 1 @bgcolor 0.8 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 332 427 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s15l @mode
+0 @min 0 @max 1 @bgcolor 0.6 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 347 427 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s15r @mode
+0 @min 0 @max 1 @bgcolor 0.6 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 283 487 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s7l @mode
+0 @min 0 @max 1 @bgcolor 0.5 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 298 487 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s7r @mode
+0 @min 0 @max 1 @bgcolor 0.5 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 328 129 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname s10l @presetname slid1L @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 343 129 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s10r @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 136 187 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname mic1 @presetname slidB1L @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 151 187 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slidB1R @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 185 187 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid9BL @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 200 187 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slidB9R @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 234 187 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slidB17L @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 249 187 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slidB17R @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 280 187 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname mic1 @presetname s2l @mode 0
+@min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 295 187 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s2r @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 329 187 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s11l @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 344 187 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname s11r @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X text 326 102 delay;
+#X text 373 136 OUTFX 1;
+#X text 374 199 OUTFX 2;
+#X text 373 259 FREEVERB;
+#X text 381 316 REVERB;
+#X text 379 378 PITCH 1;
+#X text 378 433 PITCH 2;
+#X text 380 497 DELAY;
+#X msg 536 130 3 16 \$1 100;
+#X msg 536 151 4 17 \$1 100;
+#X msg 536 186 3 18 \$1 100;
+#X msg 536 207 4 19 \$1 100;
+#X msg 537 310 3 4 \$1 100;
+#X msg 537 331 4 5 \$1 100;
+#X msg 537 366 3 6 \$1 100;
+#X msg 537 387 4 7 \$1 100;
+#X msg 537 425 3 8 \$1 100;
+#X msg 537 446 4 9 \$1 100;
+#X msg 537 480 3 10 \$1 100;
+#X msg 537 502 4 11 \$1 100;
+#X msg 619 130 5 16 \$1 100;
+#X msg 619 152 6 17 \$1 100;
+#X msg 619 187 5 18 \$1 100;
+#X msg 619 208 6 19 \$1 100;
+#X msg 620 243 5 2 \$1 100;
+#X msg 620 264 6 3 \$1 100;
+#X msg 620 367 5 6 \$1 100;
+#X msg 620 388 6 7 \$1 100;
+#X msg 620 426 5 8 \$1 100;
+#X msg 620 447 6 9 \$1 100;
+#X msg 620 481 5 10 \$1 100;
+#X msg 620 503 6 11 \$1 100;
+#X msg 702 130 7 16 \$1 100;
+#X msg 702 151 8 17 \$1 100;
+#X msg 702 186 7 18 \$1 100;
+#X msg 702 207 8 19 \$1 100;
+#X msg 703 242 7 2 \$1 100;
+#X msg 703 263 8 3 \$1 100;
+#X msg 702 310 7 4 \$1 100;
+#X msg 702 331 8 5 \$1 100;
+#X msg 703 425 7 8 \$1 100;
+#X msg 703 446 8 9 \$1 100;
+#X msg 703 480 7 10 \$1 100;
+#X msg 703 502 8 11 \$1 100;
+#X msg 784 130 9 16 \$1 100;
+#X msg 784 151 10 17 \$1 100;
+#X msg 784 186 9 18 \$1 100;
+#X msg 784 207 10 19 \$1 100;
+#X msg 785 242 9 2 \$1 100;
+#X msg 785 263 10 3 \$1 100;
+#X msg 784 310 9 4 \$1 100;
+#X msg 784 331 10 5 \$1 100;
+#X msg 786 367 9 6 \$1 100;
+#X msg 786 388 10 7 \$1 100;
+#X msg 785 480 9 10 \$1 100;
+#X msg 785 502 10 11 \$1 100;
+#X msg 871 130 11 16 \$1 100;
+#X msg 871 151 12 17 \$1 100;
+#X msg 871 186 11 18 \$1 100;
+#X msg 871 207 12 19 \$1 100;
+#X msg 872 242 11 2 \$1 100;
+#X msg 872 263 12 3 \$1 100;
+#X msg 871 310 11 4 \$1 100;
+#X msg 871 331 12 5 \$1 100;
+#X msg 873 367 11 6 \$1 100;
+#X msg 873 388 12 7 \$1 100;
+#X msg 872 426 11 8 \$1 100;
+#X msg 872 448 12 9 \$1 100;
+#X obj 687 609 s matrixluna2;
+#N canvas 181 306 1031 539 20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1002 69 inlet;
+#X obj -961 69 inlet;
+#X obj -920 69 inlet;
+#X obj -879 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -991 423 outlet;
+#X obj -946 423 outlet;
+#X obj -901 423 outlet;
+#X obj -856 423 outlet;
+#X obj -1249 157 save.me.mmb lAl1 luna;
+#X obj -1248 177 save.me.mmb lAr1 luna;
+#X obj -1165 204 save.me.mmb lBl1 luna;
+#X obj -1165 224 save.me.mmb lBr1 luna;
+#X obj -1077 244 save.me.mmb lCl1 luna;
+#X obj -1077 262 save.me.mmb lCr1 luna;
+#X obj -1002 294 save.me.mmb lDl1 luna;
+#X obj -1002 315 save.me.mmb lDr1 luna;
+#X obj -918 343 save.me.mmb lEl1 luna;
+#X obj -918 364 save.me.mmb lEr1 luna;
+#X connect 0 0 20 0;
+#X connect 1 0 21 0;
+#X connect 2 0 22 0;
+#X connect 3 0 23 0;
+#X connect 4 0 24 0;
+#X connect 5 0 25 0;
+#X connect 6 0 26 0;
+#X connect 7 0 27 0;
+#X connect 8 0 28 0;
+#X connect 9 0 29 0;
+#X connect 20 0 10 0;
+#X connect 21 0 11 0;
+#X connect 22 0 12 0;
+#X connect 23 0 13 0;
+#X connect 24 0 14 0;
+#X connect 25 0 15 0;
+#X connect 26 0 16 0;
+#X connect 27 0 17 0;
+#X connect 28 0 18 0;
+#X connect 29 0 19 0;
+#X restore -83 149 pd 20-save.me.mmb .........;
+#N canvas 289 195 1075 633 2-20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1002 69 inlet;
+#X obj -961 69 inlet;
+#X obj -920 69 inlet;
+#X obj -879 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -991 423 outlet;
+#X obj -946 423 outlet;
+#X obj -901 423 outlet;
+#X obj -856 423 outlet;
+#N canvas 181 306 1031 539 20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1002 69 inlet;
+#X obj -961 69 inlet;
+#X obj -920 69 inlet;
+#X obj -879 69 inlet;
+#X obj -836 69 inlet;
+#X obj -795 69 inlet;
+#X obj -752 69 inlet;
+#X obj -711 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -991 423 outlet;
+#X obj -946 423 outlet;
+#X obj -901 423 outlet;
+#X obj -856 423 outlet;
+#X obj -812 423 outlet;
+#X obj -767 423 outlet;
+#X obj -721 423 outlet;
+#X obj -676 423 outlet;
+#X obj -1249 157 save.me.mmb emAl1 escargot;
+#X obj -1248 177 save.me.mmb emAr1 escargot;
+#X obj -1165 204 save.me.mmb emBl1 escargot;
+#X obj -1165 224 save.me.mmb emBr1 escargot;
+#X obj -1077 244 save.me.mmb emCl1 escargot;
+#X obj -1077 264 save.me.mmb emCr1 escargot;
+#X obj -1002 294 save.me.mmb emDl1 escargot;
+#X obj -1002 315 save.me.mmb emDr1 escargot;
+#X obj -918 343 save.me.mmb emEl1 escargot;
+#X obj -918 364 save.me.mmb emEr1 escargot;
+#X obj -835 302 save.me.mmb emFl1 escargot;
+#X obj -835 320 save.me.mmb emFr1 escargot;
+#X obj -752 242 save.me.mmb emGl1 escargot;
+#X obj -751 267 save.me.mmb emGr1 escargot;
+#X connect 0 0 28 0;
+#X connect 1 0 29 0;
+#X connect 2 0 30 0;
+#X connect 3 0 31 0;
+#X connect 4 0 32 0;
+#X connect 5 0 33 0;
+#X connect 6 0 34 0;
+#X connect 7 0 35 0;
+#X connect 8 0 36 0;
+#X connect 9 0 37 0;
+#X connect 10 0 38 0;
+#X connect 11 0 39 0;
+#X connect 12 0 40 0;
+#X connect 13 0 41 0;
+#X connect 28 0 14 0;
+#X connect 29 0 15 0;
+#X connect 30 0 16 0;
+#X connect 31 0 17 0;
+#X connect 32 0 18 0;
+#X connect 33 0 19 0;
+#X connect 34 0 20 0;
+#X connect 35 0 21 0;
+#X connect 36 0 22 0;
+#X connect 37 0 23 0;
+#X connect 38 0 24 0;
+#X connect 39 0 25 0;
+#X connect 40 0 26 0;
+#X connect 41 0 27 0;
+#X restore -41 176 pd 20-save.me.mmb .........;
+#N canvas 289 195 1075 633 2-20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1002 69 inlet;
+#X obj -961 69 inlet;
+#X obj -920 69 inlet;
+#X obj -879 69 inlet;
+#X obj -836 69 inlet;
+#X obj -795 69 inlet;
+#X obj -752 69 inlet;
+#X obj -711 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -991 423 outlet;
+#X obj -946 423 outlet;
+#X obj -901 423 outlet;
+#X obj -856 423 outlet;
+#X obj -812 423 outlet;
+#X obj -767 423 outlet;
+#X obj -721 423 outlet;
+#X obj -676 423 outlet;
+#X obj -1249 157 save.me.mmb emKl1 escargot;
+#X obj -1248 177 save.me.mmb emKr1 escargot;
+#X obj -1165 204 save.me.mmb emLl1 escargot;
+#X obj -1165 224 save.me.mmb emLr1 escargot;
+#X obj -1077 244 save.me.mmb emMl1 escargot;
+#X obj -1077 264 save.me.mmb emMr1 escargot;
+#X obj -1002 294 save.me.mmb emNl1 escargot;
+#X obj -1002 315 save.me.mmb emNr1 escargot;
+#X obj -918 343 save.me.mmb emOl1 escargot;
+#X obj -918 364 save.me.mmb emOr1 escargot;
+#X obj -835 302 save.me.mmb emPl1 escargot;
+#X obj -835 322 save.me.mmb emPr1 escargot;
+#X obj -752 243 save.me.mmb emQl1 escargot;
+#X obj -751 267 save.me.mmb emQr1 escargot;
+#X connect 0 0 28 0;
+#X connect 1 0 29 0;
+#X connect 2 0 30 0;
+#X connect 3 0 31 0;
+#X connect 4 0 32 0;
+#X connect 5 0 33 0;
+#X connect 6 0 34 0;
+#X connect 7 0 35 0;
+#X connect 8 0 36 0;
+#X connect 9 0 37 0;
+#X connect 10 0 38 0;
+#X connect 11 0 39 0;
+#X connect 12 0 40 0;
+#X connect 13 0 41 0;
+#X connect 28 0 14 0;
+#X connect 29 0 15 0;
+#X connect 30 0 16 0;
+#X connect 31 0 17 0;
+#X connect 32 0 18 0;
+#X connect 33 0 19 0;
+#X connect 34 0 20 0;
+#X connect 35 0 21 0;
+#X connect 36 0 22 0;
+#X connect 37 0 23 0;
+#X connect 38 0 24 0;
+#X connect 39 0 25 0;
+#X connect 40 0 26 0;
+#X connect 41 0 27 0;
+#X restore -43 235 pd 2-20-save.me.mmb .........;
+#N canvas 289 195 1031 539 3-20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1002 69 inlet;
+#X obj -961 69 inlet;
+#X obj -920 69 inlet;
+#X obj -879 69 inlet;
+#X obj -836 69 inlet;
+#X obj -795 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -991 423 outlet;
+#X obj -946 423 outlet;
+#X obj -901 423 outlet;
+#X obj -856 423 outlet;
+#X obj -812 423 outlet;
+#X obj -767 423 outlet;
+#X obj -1249 157 save.me.mmb emAl2 escargot;
+#X obj -1248 177 save.me.mmb emAr2 escargot;
+#X obj -1165 204 save.me.mmb emBl2 escargot;
+#X obj -1165 224 save.me.mmb emBr2 escargot;
+#X obj -1077 244 save.me.mmb emCl2 escargot;
+#X obj -1077 264 save.me.mmb emCr2 escargot;
+#X obj -1002 294 save.me.mmb emDl2 escargot;
+#X obj -1003 315 save.me.mmb emDr2 escargot;
+#X obj -835 300 save.me.mmb emFl2 escargot;
+#X obj -835 322 save.me.mmb emFr2 escargot;
+#X obj -918 343 save.me.mmb emEl2 escargot;
+#X obj -918 364 save.me.mmb emEr2 escargot;
+#X connect 0 0 24 0;
+#X connect 1 0 25 0;
+#X connect 2 0 26 0;
+#X connect 3 0 27 0;
+#X connect 4 0 28 0;
+#X connect 5 0 29 0;
+#X connect 6 0 30 0;
+#X connect 7 0 31 0;
+#X connect 8 0 34 0;
+#X connect 9 0 35 0;
+#X connect 10 0 32 0;
+#X connect 11 0 33 0;
+#X connect 24 0 12 0;
+#X connect 25 0 13 0;
+#X connect 26 0 14 0;
+#X connect 27 0 15 0;
+#X connect 28 0 16 0;
+#X connect 29 0 17 0;
+#X connect 30 0 18 0;
+#X connect 31 0 19 0;
+#X connect 32 0 22 0;
+#X connect 33 0 23 0;
+#X connect 34 0 20 0;
+#X connect 35 0 21 0;
+#X restore -57 302 pd 3-20-save.me.mmb .........;
+#N canvas 280 369 1075 633 4-20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1002 69 inlet;
+#X obj -961 69 inlet;
+#X obj -920 69 inlet;
+#X obj -879 69 inlet;
+#X obj -836 69 inlet;
+#X obj -795 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -991 423 outlet;
+#X obj -946 423 outlet;
+#X obj -901 423 outlet;
+#X obj -856 423 outlet;
+#X obj -812 423 outlet;
+#X obj -767 423 outlet;
+#X obj -1249 157 save.me.mmb emKl2 escargot;
+#X obj -1248 177 save.me.mmb emKr2 escargot;
+#X obj -1165 204 save.me.mmb emLl2 escargot;
+#X obj -1165 224 save.me.mmb emLr2 escargot;
+#X obj -1077 244 save.me.mmb emMl2 escargot;
+#X obj -1077 264 save.me.mmb emMr2 escargot;
+#X obj -1002 294 save.me.mmb emNl2 escargot;
+#X obj -1002 315 save.me.mmb emNr2 escargot;
+#X obj -835 302 save.me.mmb emPl2 escargot;
+#X obj -835 322 save.me.mmb emPr2 escargot;
+#X obj -918 343 save.me.mmb emOl2 escargot;
+#X obj -918 364 save.me.mmb emOr2 escargot;
+#X connect 0 0 24 0;
+#X connect 1 0 25 0;
+#X connect 2 0 26 0;
+#X connect 3 0 27 0;
+#X connect 4 0 28 0;
+#X connect 5 0 29 0;
+#X connect 6 0 30 0;
+#X connect 7 0 31 0;
+#X connect 8 0 34 0;
+#X connect 9 0 35 0;
+#X connect 10 0 32 0;
+#X connect 11 0 33 0;
+#X connect 24 0 12 0;
+#X connect 25 0 13 0;
+#X connect 26 0 14 0;
+#X connect 27 0 15 0;
+#X connect 28 0 16 0;
+#X connect 29 0 17 0;
+#X connect 30 0 18 0;
+#X connect 31 0 19 0;
+#X connect 32 0 22 0;
+#X connect 33 0 23 0;
+#X connect 34 0 20 0;
+#X connect 35 0 21 0;
+#X restore -65 355 pd 4-20-save.me.mmb .........;
+#N canvas 289 195 1031 539 20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1002 69 inlet;
+#X obj -961 69 inlet;
+#X obj -920 69 inlet;
+#X obj -879 69 inlet;
+#X obj -836 69 inlet;
+#X obj -795 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -991 423 outlet;
+#X obj -946 423 outlet;
+#X obj -901 423 outlet;
+#X obj -856 423 outlet;
+#X obj -812 423 outlet;
+#X obj -767 423 outlet;
+#X obj -1249 157 save.me.mmb emAl3 escargot;
+#X obj -1248 177 save.me.mmb emAr3 escargot;
+#X obj -1165 204 save.me.mmb emBl3 escargot;
+#X obj -1165 224 save.me.mmb emBr3 escargot;
+#X obj -1077 244 save.me.mmb emCl3 escargot;
+#X obj -1077 264 save.me.mmb emCr3 escargot;
+#X obj -1002 294 save.me.mmb emDl3 escargot;
+#X obj -1002 315 save.me.mmb emDr3 escargot;
+#X obj -835 302 save.me.mmb emFl3 escargot;
+#X obj -835 320 save.me.mmb emFr3 escargot;
+#X obj -918 343 save.me.mmb emEl3 escargot;
+#X obj -918 363 save.me.mmb emEr3 escargot;
+#X connect 0 0 24 0;
+#X connect 1 0 25 0;
+#X connect 2 0 26 0;
+#X connect 3 0 27 0;
+#X connect 4 0 28 0;
+#X connect 5 0 29 0;
+#X connect 6 0 30 0;
+#X connect 7 0 31 0;
+#X connect 8 0 34 0;
+#X connect 9 0 35 0;
+#X connect 10 0 32 0;
+#X connect 11 0 33 0;
+#X connect 24 0 12 0;
+#X connect 25 0 13 0;
+#X connect 26 0 14 0;
+#X connect 27 0 15 0;
+#X connect 28 0 16 0;
+#X connect 29 0 17 0;
+#X connect 30 0 18 0;
+#X connect 31 0 19 0;
+#X connect 32 0 22 0;
+#X connect 33 0 23 0;
+#X connect 34 0 20 0;
+#X connect 35 0 21 0;
+#X restore -56 416 pd 20-save.me.mmb .........;
+#N canvas 620 192 1075 633 2-20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1002 69 inlet;
+#X obj -961 69 inlet;
+#X obj -920 69 inlet;
+#X obj -879 69 inlet;
+#X obj -836 69 inlet;
+#X obj -795 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -991 423 outlet;
+#X obj -946 423 outlet;
+#X obj -901 423 outlet;
+#X obj -856 423 outlet;
+#X obj -812 423 outlet;
+#X obj -767 423 outlet;
+#X obj -1249 157 save.me.mmb emKl3 escargot;
+#X obj -1248 177 save.me.mmb emKr3 escargot;
+#X obj -1165 203 save.me.mmb emLl3 escargot;
+#X obj -1165 224 save.me.mmb emLr3 escargot;
+#X obj -1077 244 save.me.mmb emMl3 escargot;
+#X obj -1077 264 save.me.mmb emMr3 escargot;
+#X obj -1002 294 save.me.mmb emNl3 escargot;
+#X obj -1001 317 save.me.mmb emNr3 escargot;
+#X obj -835 302 save.me.mmb emPl3 escargot;
+#X obj -835 321 save.me.mmb emPr3 escargot;
+#X obj -918 343 save.me.mmb emOl3 escargot;
+#X obj -918 364 save.me.mmb emOr3 escargot;
+#X connect 0 0 24 0;
+#X connect 1 0 25 0;
+#X connect 2 0 26 0;
+#X connect 3 0 27 0;
+#X connect 4 0 28 0;
+#X connect 5 0 29 0;
+#X connect 6 0 30 0;
+#X connect 7 0 31 0;
+#X connect 8 0 34 0;
+#X connect 9 0 35 0;
+#X connect 10 0 32 0;
+#X connect 11 0 33 0;
+#X connect 24 0 12 0;
+#X connect 25 0 13 0;
+#X connect 26 0 14 0;
+#X connect 27 0 15 0;
+#X connect 28 0 16 0;
+#X connect 29 0 17 0;
+#X connect 30 0 18 0;
+#X connect 31 0 19 0;
+#X connect 32 0 22 0;
+#X connect 33 0 23 0;
+#X connect 34 0 20 0;
+#X connect 35 0 21 0;
+#X restore -63 469 pd 2-20-save.me.mmb .........;
+#N canvas 582 184 1031 539 3-20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1002 69 inlet;
+#X obj -961 69 inlet;
+#X obj -920 69 inlet;
+#X obj -879 69 inlet;
+#X obj -836 69 inlet;
+#X obj -795 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -991 423 outlet;
+#X obj -946 423 outlet;
+#X obj -901 423 outlet;
+#X obj -856 423 outlet;
+#X obj -812 423 outlet;
+#X obj -767 423 outlet;
+#X obj -1249 157 save.me.mmb emAl4 escargot;
+#X obj -1248 177 save.me.mmb emAr4 escargot;
+#X obj -1165 204 save.me.mmb emBl4 escargot;
+#X obj -1165 226 save.me.mmb emBr4 escargot;
+#X obj -1077 244 save.me.mmb emCl4 escargot;
+#X obj -1077 264 save.me.mmb emCr4 escargot;
+#X obj -1002 294 save.me.mmb emDl4 escargot;
+#X obj -1002 315 save.me.mmb emDr4 escargot;
+#X obj -835 302 save.me.mmb emFl4 escargot;
+#X obj -835 322 save.me.mmb emFr4 escargot;
+#X obj -918 343 save.me.mmb emEl4 escargot;
+#X obj -918 364 save.me.mmb emEr4 escargot;
+#X connect 0 0 24 0;
+#X connect 1 0 25 0;
+#X connect 2 0 26 0;
+#X connect 3 0 27 0;
+#X connect 4 0 28 0;
+#X connect 5 0 29 0;
+#X connect 6 0 30 0;
+#X connect 7 0 31 0;
+#X connect 8 0 34 0;
+#X connect 9 0 35 0;
+#X connect 10 0 32 0;
+#X connect 11 0 33 0;
+#X connect 24 0 12 0;
+#X connect 25 0 13 0;
+#X connect 26 0 14 0;
+#X connect 27 0 15 0;
+#X connect 28 0 16 0;
+#X connect 29 0 17 0;
+#X connect 30 0 18 0;
+#X connect 31 0 19 0;
+#X connect 32 0 22 0;
+#X connect 33 0 23 0;
+#X connect 34 0 20 0;
+#X connect 35 0 21 0;
+#X restore -61 527 pd 3-20-save.me.mmb .........;
+#X obj -1249 157 save.me.mmb lKl1 luna;
+#X obj -1248 177 save.me.mmb lKr1 luna;
+#X obj -1165 204 save.me.mmb lLl1 luna;
+#X obj -1165 224 save.me.mmb lLr1 luna;
+#X obj -1077 244 save.me.mmb lMl1 luna;
+#X obj -1077 264 save.me.mmb lMr1 luna;
+#X obj -1002 294 save.me.mmb lNl1 luna;
+#X obj -1002 315 save.me.mmb lNr1 luna;
+#X obj -918 343 save.me.mmb lOl1 luna;
+#X obj -918 364 save.me.mmb lOr1 luna;
+#X connect 0 0 27 0;
+#X connect 1 0 28 0;
+#X connect 2 0 29 0;
+#X connect 3 0 30 0;
+#X connect 4 0 31 0;
+#X connect 5 0 32 0;
+#X connect 6 0 33 0;
+#X connect 7 0 34 0;
+#X connect 8 0 35 0;
+#X connect 9 0 36 0;
+#X connect 27 0 10 0;
+#X connect 28 0 11 0;
+#X connect 29 0 12 0;
+#X connect 30 0 13 0;
+#X connect 31 0 14 0;
+#X connect 32 0 15 0;
+#X connect 33 0 16 0;
+#X connect 34 0 17 0;
+#X connect 35 0 18 0;
+#X connect 36 0 19 0;
+#X restore -83 205 pd 2-20-save.me.mmb .........;
+#N canvas 289 195 1031 539 3-20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1002 69 inlet;
+#X obj -961 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -991 423 outlet;
+#X obj -946 423 outlet;
+#X obj -1249 157 save.me.mmb lAl2 luna;
+#X obj -1248 177 save.me.mmb lAr2 luna;
+#X obj -1165 204 save.me.mmb lBl2 luna;
+#X obj -1165 224 save.me.mmb lBr2 luna;
+#X obj -1077 244 save.me.mmb lCl2 luna;
+#X obj -1077 264 save.me.mmb lCr2 luna;
+#X obj -1002 294 save.me.mmb lDl2 luna;
+#X obj -1003 315 save.me.mmb lDr2 luna;
+#X connect 0 0 16 0;
+#X connect 1 0 17 0;
+#X connect 2 0 18 0;
+#X connect 3 0 19 0;
+#X connect 4 0 20 0;
+#X connect 5 0 21 0;
+#X connect 6 0 22 0;
+#X connect 7 0 23 0;
+#X connect 16 0 8 0;
+#X connect 17 0 9 0;
+#X connect 18 0 10 0;
+#X connect 19 0 11 0;
+#X connect 20 0 12 0;
+#X connect 21 0 13 0;
+#X connect 22 0 14 0;
+#X connect 23 0 15 0;
+#X restore -84 263 pd 3-20-save.me.mmb .........;
+#N canvas 280 369 1075 633 4-20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1002 69 inlet;
+#X obj -961 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -991 423 outlet;
+#X obj -946 423 outlet;
+#X obj -1250 157 save.me.mmb lKl2 luna;
+#X obj -1248 177 save.me.mmb lKr2 luna;
+#X obj -1165 204 save.me.mmb lLl2 luna;
+#X obj -1165 224 save.me.mmb lLr2 luna;
+#X obj -1077 244 save.me.mmb lMl2 luna;
+#X obj -1077 264 save.me.mmb lMr2 luna;
+#X obj -1002 294 save.me.mmb lNl2 luna;
+#X obj -1002 315 save.me.mmb lNr2 luna;
+#X connect 0 0 16 0;
+#X connect 1 0 17 0;
+#X connect 2 0 18 0;
+#X connect 3 0 19 0;
+#X connect 4 0 20 0;
+#X connect 5 0 21 0;
+#X connect 6 0 22 0;
+#X connect 7 0 23 0;
+#X connect 16 0 8 0;
+#X connect 17 0 9 0;
+#X connect 18 0 10 0;
+#X connect 19 0 11 0;
+#X connect 20 0 12 0;
+#X connect 21 0 13 0;
+#X connect 22 0 14 0;
+#X connect 23 0 15 0;
+#X restore -84 323 pd 4-20-save.me.mmb .........;
+#N canvas 289 195 1031 539 20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1002 69 inlet;
+#X obj -961 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -991 423 outlet;
+#X obj -946 423 outlet;
+#X obj -1249 157 save.me.mmb lAl3 luna;
+#X obj -1248 177 save.me.mmb lAr3 luna;
+#X obj -1165 204 save.me.mmb lBl3 luna;
+#X obj -1165 224 save.me.mmb lBr3 luna;
+#X obj -1077 244 save.me.mmb lCl3 luna;
+#X obj -1077 264 save.me.mmb lCr3 luna;
+#X obj -1002 294 save.me.mmb lDl3 luna;
+#X obj -1002 315 save.me.mmb lDr3 luna;
+#X connect 0 0 16 0;
+#X connect 1 0 17 0;
+#X connect 2 0 18 0;
+#X connect 3 0 19 0;
+#X connect 4 0 20 0;
+#X connect 5 0 21 0;
+#X connect 6 0 22 0;
+#X connect 7 0 23 0;
+#X connect 16 0 8 0;
+#X connect 17 0 9 0;
+#X connect 18 0 10 0;
+#X connect 19 0 11 0;
+#X connect 20 0 12 0;
+#X connect 21 0 13 0;
+#X connect 22 0 14 0;
+#X connect 23 0 15 0;
+#X restore -84 390 pd 20-save.me.mmb .........;
+#N canvas 396 178 1075 633 2-20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1002 69 inlet;
+#X obj -961 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -991 423 outlet;
+#X obj -946 423 outlet;
+#X obj -1249 157 save.me.mmb lKl3 luna;
+#X obj -1248 177 save.me.mmb lKr3 luna;
+#X obj -1165 203 save.me.mmb lLl3 luna;
+#X obj -1165 224 save.me.mmb lLr3 luna;
+#X obj -1077 244 save.me.mmb lMl3 luna;
+#X obj -1077 264 save.me.mmb lMr3 luna;
+#X obj -1002 294 save.me.mmb lNl3 luna;
+#X obj -1001 317 save.me.mmb lNr3 luna;
+#X connect 0 0 16 0;
+#X connect 1 0 17 0;
+#X connect 2 0 18 0;
+#X connect 3 0 19 0;
+#X connect 4 0 20 0;
+#X connect 5 0 21 0;
+#X connect 6 0 22 0;
+#X connect 7 0 23 0;
+#X connect 16 0 8 0;
+#X connect 17 0 9 0;
+#X connect 18 0 10 0;
+#X connect 19 0 11 0;
+#X connect 20 0 12 0;
+#X connect 21 0 13 0;
+#X connect 22 0 14 0;
+#X connect 23 0 15 0;
+#X restore -84 448 pd 2-20-save.me.mmb .........;
+#N canvas 582 184 1031 539 3-20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1002 69 inlet;
+#X obj -961 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -991 423 outlet;
+#X obj -946 423 outlet;
+#X obj -1249 157 save.me.mmb lAl4 luna;
+#X obj -1248 177 save.me.mmb lAr4 luna;
+#X obj -1165 203 save.me.mmb lBl4 luna;
+#X obj -1165 226 save.me.mmb lBr4 luna;
+#X obj -1077 244 save.me.mmb lCl4 luna;
+#X obj -1077 264 save.me.mmb lCr4 luna;
+#X obj -1002 294 save.me.mmb lDl4 luna;
+#X obj -1002 315 save.me.mmb lDr4 luna;
+#X connect 0 0 16 0;
+#X connect 1 0 17 0;
+#X connect 2 0 18 0;
+#X connect 3 0 19 0;
+#X connect 4 0 20 0;
+#X connect 5 0 21 0;
+#X connect 6 0 22 0;
+#X connect 7 0 23 0;
+#X connect 16 0 8 0;
+#X connect 17 0 9 0;
+#X connect 18 0 10 0;
+#X connect 19 0 11 0;
+#X connect 20 0 12 0;
+#X connect 21 0 13 0;
+#X connect 22 0 14 0;
+#X connect 23 0 15 0;
+#X restore -83 507 pd 3-20-save.me.mmb .........;
+#X connect 0 0 72 0;
+#X connect 0 0 133 0;
+#X connect 1 0 73 0;
+#X connect 1 0 133 1;
+#X connect 2 0 88 0;
+#X connect 2 0 135 0;
+#X connect 3 0 89 0;
+#X connect 3 0 135 1;
+#X connect 4 0 100 0;
+#X connect 4 0 135 2;
+#X connect 5 0 101 0;
+#X connect 5 0 135 3;
+#X connect 6 0 76 0;
+#X connect 6 0 136 0;
+#X connect 7 0 77 0;
+#X connect 7 0 136 1;
+#X connect 8 0 102 0;
+#X connect 8 0 136 2;
+#X connect 9 0 103 0;
+#X connect 9 0 136 3;
+#X connect 10 0 78 0;
+#X connect 10 0 137 0;
+#X connect 11 0 79 0;
+#X connect 11 0 137 1;
+#X connect 12 0 90 0;
+#X connect 12 0 137 2;
+#X connect 13 0 91 0;
+#X connect 13 0 137 3;
+#X connect 14 0 80 0;
+#X connect 14 0 138 0;
+#X connect 15 0 81 0;
+#X connect 15 0 138 1;
+#X connect 16 0 92 0;
+#X connect 16 0 138 2;
+#X connect 17 0 93 0;
+#X connect 17 0 138 3;
+#X connect 18 0 104 0;
+#X connect 18 0 138 4;
+#X connect 19 0 105 0;
+#X connect 19 0 138 5;
+#X connect 20 0 82 0;
+#X connect 20 0 139 0;
+#X connect 21 0 83 0;
+#X connect 21 0 139 1;
+#X connect 22 0 94 0;
+#X connect 22 0 139 2;
+#X connect 23 0 95 0;
+#X connect 23 0 139 3;
+#X connect 24 0 106 0;
+#X connect 24 0 139 4;
+#X connect 25 0 107 0;
+#X connect 25 0 139 5;
+#X connect 26 0 84 0;
+#X connect 26 0 133 2;
+#X connect 27 0 85 0;
+#X connect 27 0 133 3;
+#X connect 28 0 96 0;
+#X connect 28 0 133 4;
+#X connect 29 0 97 0;
+#X connect 29 0 133 5;
+#X connect 34 0 108 0;
+#X connect 34 0 133 6;
+#X connect 35 0 109 0;
+#X connect 35 0 133 7;
+#X connect 36 0 112 0;
+#X connect 36 0 135 4;
+#X connect 37 0 113 0;
+#X connect 37 0 135 5;
+#X connect 38 0 124 0;
+#X connect 38 0 135 6;
+#X connect 39 0 125 0;
+#X connect 39 0 135 7;
+#X connect 40 0 114 0;
+#X connect 40 0 136 4;
+#X connect 41 0 115 0;
+#X connect 41 0 136 5;
+#X connect 42 0 126 0;
+#X connect 42 0 136 6;
+#X connect 43 0 127 0;
+#X connect 43 0 136 7;
+#X connect 44 0 116 0;
+#X connect 44 0 137 4;
+#X connect 45 0 117 0;
+#X connect 45 0 137 5;
+#X connect 46 0 128 0;
+#X connect 46 0 137 6;
+#X connect 47 0 129 0;
+#X connect 47 0 137 7;
+#X connect 48 0 130 0;
+#X connect 48 0 138 6;
+#X connect 49 0 131 0;
+#X connect 49 0 138 7;
+#X connect 50 0 118 0;
+#X connect 50 0 139 6;
+#X connect 51 0 119 0;
+#X connect 51 0 139 7;
+#X connect 52 0 120 0;
+#X connect 52 0 133 8;
+#X connect 53 0 121 0;
+#X connect 53 0 133 9;
+#X connect 54 0 74 0;
+#X connect 54 0 134 0;
+#X connect 55 0 75 0;
+#X connect 55 0 134 1;
+#X connect 56 0 86 0;
+#X connect 56 0 134 2;
+#X connect 57 0 87 0;
+#X connect 57 0 134 3;
+#X connect 58 0 98 0;
+#X connect 58 0 134 4;
+#X connect 59 0 99 0;
+#X connect 59 0 134 5;
+#X connect 60 0 110 0;
+#X connect 60 0 134 6;
+#X connect 61 0 111 0;
+#X connect 61 0 134 7;
+#X connect 62 0 122 0;
+#X connect 62 0 134 8;
+#X connect 63 0 123 0;
+#X connect 63 0 134 9;
+#X connect 72 0 132 0;
+#X connect 73 0 132 0;
+#X connect 74 0 132 0;
+#X connect 75 0 132 0;
+#X connect 76 0 132 0;
+#X connect 77 0 132 0;
+#X connect 78 0 132 0;
+#X connect 79 0 132 0;
+#X connect 80 0 132 0;
+#X connect 81 0 132 0;
+#X connect 82 0 132 0;
+#X connect 83 0 132 0;
+#X connect 84 0 132 0;
+#X connect 85 0 132 0;
+#X connect 86 0 132 0;
+#X connect 87 0 132 0;
+#X connect 88 0 132 0;
+#X connect 89 0 132 0;
+#X connect 90 0 132 0;
+#X connect 91 0 132 0;
+#X connect 92 0 132 0;
+#X connect 93 0 132 0;
+#X connect 94 0 132 0;
+#X connect 95 0 132 0;
+#X connect 96 0 132 0;
+#X connect 97 0 132 0;
+#X connect 98 0 132 0;
+#X connect 99 0 132 0;
+#X connect 100 0 132 0;
+#X connect 101 0 132 0;
+#X connect 102 0 132 0;
+#X connect 103 0 132 0;
+#X connect 104 0 132 0;
+#X connect 105 0 132 0;
+#X connect 106 0 132 0;
+#X connect 107 0 132 0;
+#X connect 108 0 132 0;
+#X connect 109 0 132 0;
+#X connect 110 0 132 0;
+#X connect 111 0 132 0;
+#X connect 112 0 132 0;
+#X connect 113 0 132 0;
+#X connect 114 0 132 0;
+#X connect 115 0 132 0;
+#X connect 116 0 132 0;
+#X connect 117 0 132 0;
+#X connect 118 0 132 0;
+#X connect 119 0 132 0;
+#X connect 120 0 132 0;
+#X connect 121 0 132 0;
+#X connect 122 0 132 0;
+#X connect 123 0 132 0;
+#X connect 124 0 132 0;
+#X connect 125 0 132 0;
+#X connect 126 0 132 0;
+#X connect 127 0 132 0;
+#X connect 128 0 132 0;
+#X connect 129 0 132 0;
+#X connect 130 0 132 0;
+#X connect 131 0 132 0;
+#X connect 133 0 0 0;
+#X connect 133 1 1 0;
+#X connect 133 2 26 0;
+#X connect 133 3 27 0;
+#X connect 133 4 28 0;
+#X connect 133 5 29 0;
+#X connect 133 6 34 0;
+#X connect 133 7 35 0;
+#X connect 133 8 52 0;
+#X connect 133 9 53 0;
+#X connect 134 0 54 0;
+#X connect 134 1 55 0;
+#X connect 134 2 56 0;
+#X connect 134 3 57 0;
+#X connect 134 4 58 0;
+#X connect 134 5 59 0;
+#X connect 134 6 60 0;
+#X connect 134 7 61 0;
+#X connect 134 8 62 0;
+#X connect 134 9 63 0;
+#X connect 135 0 2 0;
+#X connect 135 1 3 0;
+#X connect 135 2 4 0;
+#X connect 135 3 5 0;
+#X connect 135 4 36 0;
+#X connect 135 5 37 0;
+#X connect 135 6 38 0;
+#X connect 135 7 39 0;
+#X connect 136 0 6 0;
+#X connect 136 1 7 0;
+#X connect 136 2 8 0;
+#X connect 136 3 9 0;
+#X connect 136 4 40 0;
+#X connect 136 5 41 0;
+#X connect 136 6 42 0;
+#X connect 136 7 43 0;
+#X connect 137 0 10 0;
+#X connect 137 1 11 0;
+#X connect 137 2 12 0;
+#X connect 137 3 13 0;
+#X connect 137 4 44 0;
+#X connect 137 5 45 0;
+#X connect 137 6 46 0;
+#X connect 137 7 47 0;
+#X connect 138 0 14 0;
+#X connect 138 1 15 0;
+#X connect 138 2 16 0;
+#X connect 138 3 17 0;
+#X connect 138 4 18 0;
+#X connect 138 5 19 0;
+#X connect 138 6 48 0;
+#X connect 138 7 49 0;
+#X connect 139 0 20 0;
+#X connect 139 1 21 0;
+#X connect 139 2 22 0;
+#X connect 139 3 23 0;
+#X connect 139 4 24 0;
+#X connect 139 5 25 0;
+#X connect 139 6 50 0;
+#X connect 139 7 51 0;
+#X coords 0 -1 1 1 330 450 2 100 100;

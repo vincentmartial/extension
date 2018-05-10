@@ -1,0 +1,63 @@
+#N canvas 378 70 612 358 10;
+#X obj 283 12 inlet~;
+#X obj 101 239 pack 0 50;
+#X obj 283 249 clip~ -1 1;
+#X obj 283 228 qompander~ 3;
+#X obj 47 187 switch~;
+#X obj 181 294 outlet~;
+#X obj 285 146 c.slider @size 120 15 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname factor @mode
+0 @min 0 @max 8 @bgcolor 0.75 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 285 166 c.slider @size 120 15 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname point @mode
+0 @min -96 @max -20 @bgcolor 0.75 0.75 0.75 1 @bdcolor 0.5 0.5 0.5
+1 @kncolor 0.5 0.5 0.5 1;
+#X obj 283 277 *~ 0;
+#X obj 101 260 line;
+#X obj 285 186 c.slider @size 120 15 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname response @mode
+0 @min 7.39 @max 1 @bgcolor 0.75 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1
+@kncolor 0.5 0.5 0.5 1;
+#X obj 285 206 c.slider @size 120 15 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname recovery @mode
+0 @min 20 @max 400 @bgcolor 0.75 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1
+@kncolor 0.5 0.5 0.5 1;
+#X obj 186 91 c.preset @size 15 69 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 10 @idname (null) @bgcolor 0.5 0.6 0.6 0
+@bdcolor 0.5 0.5 0.5 0.5 @textcolor 0 0 0 1 @emcolor 0.85 0.85 0.85
+1 @stcolor 0.5 0.8 0.9 1 @secolor 0.3 0.9 0.7 1 @preset [ @index 0
+@factor c.slider float 0.8 @point c.slider float -96 @response c.slider
+float 7.39 @recovery c.slider float 20 @index 1 @factor c.slider float
+1 @point c.slider float -20 @response c.slider float 7.39 @recovery
+c.slider float 20 @index 2 @factor c.slider float 3 @point c.slider
+float -20 @response c.slider float 7.33675 @recovery c.slider float
+20 @index 3 @factor c.slider float 4 @point c.slider float -70.0333
+@response c.slider float 3.0235 @recovery c.slider float 20 ];
+#X text 209 87 limiter;
+#X text 210 106 gate;
+#X text 210 122 gate;
+#X text 210 142 punch;
+#X obj 47 168 inlet;
+#X obj 94 169 inlet;
+#X floatatom 408 144 5 0 0 0 - - -;
+#X floatatom 408 164 5 0 0 0 - - -;
+#X floatatom 408 185 5 0 0 0 - - -;
+#X floatatom 408 206 5 0 0 0 - - -;
+#X connect 0 0 3 0;
+#X connect 1 0 9 0;
+#X connect 2 0 8 0;
+#X connect 3 0 2 0;
+#X connect 6 0 3 1;
+#X connect 6 0 19 0;
+#X connect 7 0 3 2;
+#X connect 7 0 20 0;
+#X connect 8 0 5 0;
+#X connect 9 0 8 1;
+#X connect 10 0 3 3;
+#X connect 10 0 21 0;
+#X connect 11 0 3 4;
+#X connect 11 0 22 0;
+#X connect 17 0 4 0;
+#X connect 18 0 1 0;
+#X coords 0 -1 1 1 30 15 2 100 100;

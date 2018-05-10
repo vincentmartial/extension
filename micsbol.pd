@@ -1,0 +1,174 @@
+#N canvas 524 385 611 431 10;
+#X obj 115 104 c.slider @size 15 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname mic @mode
+0 @min 0 @max 1 @bgcolor 0.45 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 115 158 c.toggle @size 15 15 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname sw1 @bgcolor
+1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @crcolor 0.5 0.5 0.5 1;
+#X obj 101 175 mic3;
+#X obj 103 104 c.meter~ @size 8 70 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @interval 50 @bgcolor
+0.75 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @coldcolor 0 0.6 0 0.8 @tepidcolor
+0.6 0.73 0 0.8 @warmcolor 0.85 0.85 0 0.8 @hotcolor 1 0.6 0 0.8 @overcolor
+1 0 0 0.8;
+#X obj 150 104 c.slider @size 15 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname mic2 @mode
+0 @min 0 @max 1 @bgcolor 0.45 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 150 158 c.toggle @size 15 15 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname sw2 @bgcolor
+1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @crcolor 0.5 0.5 0.5 1;
+#X obj 136 175 mic3;
+#X obj 138 104 c.meter~ @size 8 70 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @interval 50 @bgcolor
+0.75 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @coldcolor 0 0.6 0 0.8 @tepidcolor
+0.6 0.73 0 0.8 @warmcolor 0.85 0.85 0 0.8 @hotcolor 1 0.6 0 0.8 @overcolor
+1 0 0 0.8;
+#X obj 185 104 c.slider @size 15 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname mic3 @mode
+0 @min 0 @max 1 @bgcolor 0.45 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 185 158 c.toggle @size 15 15 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname sw3 @bgcolor
+1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @crcolor 0.5 0.5 0.5 1;
+#X obj 171 175 mic3;
+#X obj 173 104 c.meter~ @size 8 70 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @interval 50 @bgcolor
+0.75 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @coldcolor 0 0.6 0 0.8 @tepidcolor
+0.6 0.73 0 0.8 @warmcolor 0.85 0.85 0 0.8 @hotcolor 1 0.6 0 0.8 @overcolor
+1 0 0 0.8;
+#N canvas 181 306 1031 539 20-save.me.mmb 0;
+#X obj -1251 69 inlet;
+#X obj -1210 69 inlet;
+#X obj -1167 69 inlet;
+#X obj -1126 69 inlet;
+#X obj -1086 69 inlet;
+#X obj -1045 69 inlet;
+#X obj -1260 423 outlet;
+#X obj -1215 423 outlet;
+#X obj -1171 423 outlet;
+#X obj -1126 423 outlet;
+#X obj -1080 423 outlet;
+#X obj -1035 423 outlet;
+#X obj -914 76 inlet;
+#X obj -873 76 inlet;
+#X obj -833 76 inlet;
+#X obj -792 76 inlet;
+#X obj -918 430 outlet;
+#X obj -873 430 outlet;
+#X obj -827 430 outlet;
+#X obj -782 430 outlet;
+#X obj -1249 157 save.me.mmb bmic1 bol;
+#X obj -1248 177 save.me.mmb bsw1 bol;
+#X obj -1165 198 save.me.mmb bmic2 bol;
+#X obj -1165 224 save.me.mmb bsw2 bol;
+#X obj -1077 244 save.me.mmb bmic3 bol;
+#X obj -1077 264 save.me.mmb bsw3 bol;
+#X obj -912 205 save.me.mmb bmic2 bol;
+#X obj -912 231 save.me.mmb bsw2 bol;
+#X obj -824 251 save.me.mmb bmic3 bol;
+#X obj -824 271 save.me.mmb bsw3 bol;
+#X connect 0 0 20 0;
+#X connect 1 0 21 0;
+#X connect 2 0 22 0;
+#X connect 3 0 23 0;
+#X connect 4 0 24 0;
+#X connect 5 0 25 0;
+#X connect 12 0 26 0;
+#X connect 13 0 27 0;
+#X connect 14 0 28 0;
+#X connect 15 0 29 0;
+#X connect 20 0 6 0;
+#X connect 21 0 7 0;
+#X connect 22 0 8 0;
+#X connect 23 0 9 0;
+#X connect 24 0 10 0;
+#X connect 25 0 11 0;
+#X connect 26 0 16 0;
+#X connect 27 0 17 0;
+#X connect 28 0 18 0;
+#X connect 29 0 19 0;
+#X restore 308 157 pd 20-save.me.mmb .........;
+#X obj 220 104 c.slider @size 15 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname mic2 @mode
+0 @min 0 @max 1 @bgcolor 0.45 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 220 158 c.toggle @size 15 15 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname sw2 @bgcolor
+1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @crcolor 0.5 0.5 0.5 1;
+#X obj 206 175 mic3;
+#X obj 208 104 c.meter~ @size 8 70 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @interval 50 @bgcolor
+0.75 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @coldcolor 0 0.6 0 0.8 @tepidcolor
+0.6 0.73 0 0.8 @warmcolor 0.85 0.85 0 0.8 @hotcolor 1 0.6 0 0.8 @overcolor
+1 0 0 0.8;
+#X obj 255 104 c.slider @size 15 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname mic3 @mode
+0 @min 0 @max 1 @bgcolor 0.45 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 255 158 c.toggle @size 15 15 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname sw3 @bgcolor
+1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @crcolor 0.5 0.5 0.5 1;
+#X obj 241 175 mic3;
+#X obj 243 104 c.meter~ @size 8 70 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @interval 50 @bgcolor
+0.75 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @coldcolor 0 0.6 0 0.8 @tepidcolor
+0.6 0.73 0 0.8 @warmcolor 0.85 0.85 0 0.8 @hotcolor 1 0.6 0 0.8 @overcolor
+1 0 0 0.8;
+#X obj 125 35 adc~ 4;
+#X obj 160 53 adc~ 5;
+#X obj 195 33 adc~ 6;
+#X obj 230 53 adc~ 7;
+#X obj 265 33 adc~ 8;
+#X obj 102 224 s~ takmic;
+#X obj 137 263 s~ cbasmic;
+#X obj 172 297 s~ guitmic;
+#X obj 210 224 s~ chtmic;
+#X obj 253 263 s~ bolmic;
+#X connect 0 0 2 1;
+#X connect 0 0 12 0;
+#X connect 1 0 2 0;
+#X connect 1 0 12 1;
+#X connect 2 0 3 0;
+#X connect 2 0 26 0;
+#X connect 4 0 6 1;
+#X connect 4 0 12 2;
+#X connect 5 0 6 0;
+#X connect 5 0 12 3;
+#X connect 6 0 7 0;
+#X connect 6 0 27 0;
+#X connect 8 0 10 1;
+#X connect 8 0 12 4;
+#X connect 9 0 10 0;
+#X connect 9 0 12 5;
+#X connect 10 0 11 0;
+#X connect 10 0 28 0;
+#X connect 12 0 0 0;
+#X connect 12 1 1 0;
+#X connect 12 2 4 0;
+#X connect 12 3 5 0;
+#X connect 12 4 8 0;
+#X connect 12 5 9 0;
+#X connect 12 6 13 0;
+#X connect 12 7 14 0;
+#X connect 12 8 17 0;
+#X connect 12 9 18 0;
+#X connect 13 0 15 1;
+#X connect 13 0 12 6;
+#X connect 14 0 15 0;
+#X connect 14 0 12 7;
+#X connect 15 0 16 0;
+#X connect 15 0 29 0;
+#X connect 17 0 19 1;
+#X connect 17 0 12 8;
+#X connect 18 0 19 0;
+#X connect 18 0 12 9;
+#X connect 19 0 20 0;
+#X connect 19 0 30 0;
+#X connect 21 0 2 2;
+#X connect 22 0 6 2;
+#X connect 23 0 10 2;
+#X connect 24 0 15 2;
+#X connect 25 0 19 2;
+#X coords 0 -1 1 1 173 76 2 100 100;

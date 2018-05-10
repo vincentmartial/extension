@@ -1,0 +1,333 @@
+#N canvas 242 201 1048 645 10;
+#X obj 107 190 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid10L @mode
+0 @min 0 @max 1 @bgcolor 1 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 122 190 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid10R @mode
+0 @min 0 @max 1 @bgcolor 1 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 148 190 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid18L @mode
+0 @min 0 @max 1 @bgcolor 1 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 163 190 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid18R @mode
+0 @min 0 @max 1 @bgcolor 1 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 107 250 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid11L @mode
+0 @min 0 @max 1 @bgcolor 1 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 122 250 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid11R @mode
+0 @min 0 @max 1 @bgcolor 1 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 148 250 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid19L @mode
+0 @min 0 @max 1 @bgcolor 1 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 163 250 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid19R @mode
+0 @min 0 @max 1 @bgcolor 1 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 108 312 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid12L @mode
+0 @min 0 @max 1 @bgcolor 0.8 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 123 312 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid12R @mode
+0 @min 0 @max 1 @bgcolor 0.8 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 149 312 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid20L @mode
+0 @min 0 @max 1 @bgcolor 0.8 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 164 312 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid20R @mode
+0 @min 0 @max 1 @bgcolor 0.8 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 108 372 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid13L @mode
+0 @min 0 @max 1 @bgcolor 0.6 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 123 372 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid13R @mode
+0 @min 0 @max 1 @bgcolor 0.6 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 149 372 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid21L @mode
+0 @min 0 @max 1 @bgcolor 0.6 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 164 372 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid21R @mode
+0 @min 0 @max 1 @bgcolor 0.6 0.9 0.9 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 108 432 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid14L @mode
+0 @min 0 @max 1 @bgcolor 0.5 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 123 432 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid14R @mode
+0 @min 0 @max 1 @bgcolor 0.5 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 149 432 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid22L @mode
+0 @min 0 @max 1 @bgcolor 0.5 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 165 432 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid22R @mode
+0 @min 0 @max 1 @bgcolor 0.5 0.7 0.8 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 107 491 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid15L @mode
+0 @min 0 @max 1 @bgcolor 0.25 0.65 0.7 0.3 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 122 491 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid15R @mode
+0 @min 0 @max 1 @bgcolor 0.25 0.65 0.7 0.3 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 148 491 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid23L @mode
+0 @min 0 @max 1 @bgcolor 0.25 0.65 0.7 0.3 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 165 491 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid23R @mode
+0 @min 0 @max 1 @bgcolor 0.25 0.65 0.7 0.3 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 107 551 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid16L @mode
+0 @min 0 @max 1 @bgcolor 1 0.55 0.6 0 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 122 551 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid16R @mode
+0 @min 0 @max 1 @bgcolor 1 0.55 0.6 0 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 148 551 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid24L @mode
+0 @min 0 @max 1 @bgcolor 1 0.55 0.6 0 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 163 551 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid24R @mode
+0 @min 0 @max 1 @bgcolor 1 0.55 0.6 0 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X text 105 100 MIC 2;
+#X text 157 101 MIC 3;
+#X text 185 140 OUTDRY;
+#X text 184 198 FREEVERB;
+#X text 186 258 REVERB;
+#X text 186 322 PITCH 1;
+#X text 186 380 PITCH 2;
+#X text 189 439 DELAY;
+#X text 186 504 PEDAZOS;
+#X text 190 563 DISTO;
+#X obj 109 130 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid9L @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 122 130 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid9R @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 149 129 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname mic1 @presetname slid17L @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X obj 165 130 c.slider @size 10 50 @fontname Monaco @fontweight normal
+@fontslant roman @fontsize 11 @idname (null) @presetname slid17R @mode
+0 @min 0 @max 1 @bgcolor 1 0.75 0.75 1 @bdcolor 0.5 0.5 0.5 1 @kncolor
+0.5 0.5 0.5 1;
+#X msg 331 192 1 2 \$1 100;
+#X msg 332 211 1 3 \$1 100;
+#X msg 331 253 1 4 \$1 100;
+#X msg 332 272 1 5 \$1 100;
+#X msg 331 314 1 6 \$1 100;
+#X msg 331 333 1 7 \$1 100;
+#X msg 331 373 1 8 \$1 100;
+#X msg 331 392 1 9 \$1 100;
+#X msg 330 435 1 10 \$1 100;
+#X msg 330 454 1 11 \$1 100;
+#X msg 330 498 1 12 \$1 100;
+#X msg 330 517 1 13 \$1 100;
+#X msg 330 575 1 15 \$1 100;
+#X msg 421 191 2 2 \$1 100;
+#X msg 422 210 2 3 \$1 100;
+#X msg 421 252 2 4 \$1 100;
+#X msg 422 271 2 5 \$1 100;
+#X msg 421 313 2 6 \$1 100;
+#X msg 421 332 2 7 \$1 100;
+#X msg 421 372 2 8 \$1 100;
+#X msg 421 391 2 9 \$1 100;
+#X msg 420 434 2 10 \$1 100;
+#X msg 420 453 2 11 \$1 100;
+#X msg 420 497 2 12 \$1 100;
+#X msg 420 516 2 13 \$1 100;
+#X msg 420 575 2 15 \$1 100;
+#X obj 602 389 s matrixdistrib;
+#X msg 420 555 2 14 \$1;
+#X msg 330 556 1 14 \$1;
+#X obj -150 58 save.me.mmb AL distrib;
+#X obj -159 93 save.me.mmb AR distrib;
+#X obj -162 119 save.me.mmb BL distrib;
+#X obj -162 135 save.me.mmb BR distrib;
+#X obj -163 167 save.me.mmb CL distrib;
+#X obj -165 191 save.me.mmb CR distrib;
+#X obj -164 221 save.me.mmb DL distrib;
+#X obj -164 238 save.me.mmb DR distrib;
+#X obj -164 264 save.me.mmb EL distrib;
+#X obj -165 282 save.me.mmb ER distrib;
+#X obj -170 313 save.me.mmb FL distrib;
+#X obj -170 335 save.me.mmb FR distrib;
+#X obj -166 359 save.me.mmb GL distrib;
+#X obj -168 385 save.me.mmb GR distrib;
+#X obj -166 404 save.me.mmb HL distrib;
+#X msg 330 164 1 1 \$1 100;
+#X msg 420 163 2 1 \$1 100;
+#X msg 419 144 2 0 \$1 100;
+#X msg 330 139 1 0 \$1 100;
+#X obj -333 64 save.me.mmb AL1 distrib;
+#X obj -332 84 save.me.mmb AR1 distrib;
+#X obj -332 104 save.me.mmb BL1 distrib;
+#X obj -332 124 save.me.mmb BR1 distrib;
+#X obj -333 158 save.me.mmb CL1 distrib;
+#X obj -335 182 save.me.mmb CR1 distrib;
+#X obj -333 207 save.me.mmb DL1 distrib;
+#X obj -334 228 save.me.mmb DR1 distrib;
+#X obj -334 253 save.me.mmb EL1 distrib;
+#X obj -335 274 save.me.mmb ER1 distrib;
+#X obj -334 294 save.me.mmb FL1 distrib;
+#X obj -335 314 save.me.mmb FR1 distrib;
+#X obj -336 348 save.me.mmb GL1 distrib;
+#X obj -338 372 save.me.mmb GR1 distrib;
+#X obj -336 397 save.me.mmb HL1 distrib;
+#X obj -337 418 save.me.mmb HR1 distrib;
+#X obj -162 437 save.me.mmb HR distrib;
+#X connect 0 0 42 0;
+#X connect 0 0 73 0;
+#X connect 1 0 43 0;
+#X connect 1 0 74 0;
+#X connect 2 0 55 0;
+#X connect 2 0 92 0;
+#X connect 3 0 56 0;
+#X connect 3 0 93 0;
+#X connect 4 0 44 0;
+#X connect 4 0 75 0;
+#X connect 5 0 45 0;
+#X connect 5 0 76 0;
+#X connect 6 0 57 0;
+#X connect 6 0 94 0;
+#X connect 7 0 58 0;
+#X connect 7 0 95 0;
+#X connect 8 0 46 0;
+#X connect 8 0 77 0;
+#X connect 9 0 47 0;
+#X connect 9 0 78 0;
+#X connect 10 0 59 0;
+#X connect 10 0 96 0;
+#X connect 11 0 60 0;
+#X connect 11 0 97 0;
+#X connect 12 0 48 0;
+#X connect 12 0 79 0;
+#X connect 13 0 49 0;
+#X connect 13 0 80 0;
+#X connect 14 0 61 0;
+#X connect 14 0 98 0;
+#X connect 15 0 62 0;
+#X connect 15 0 99 0;
+#X connect 16 0 50 0;
+#X connect 16 0 81 0;
+#X connect 17 0 51 0;
+#X connect 17 0 82 0;
+#X connect 18 0 63 0;
+#X connect 18 0 100 0;
+#X connect 19 0 64 0;
+#X connect 19 0 101 0;
+#X connect 20 0 52 0;
+#X connect 20 0 83 0;
+#X connect 21 0 53 0;
+#X connect 21 0 84 0;
+#X connect 22 0 65 0;
+#X connect 22 0 102 0;
+#X connect 23 0 66 0;
+#X connect 23 0 103 0;
+#X connect 24 0 70 0;
+#X connect 24 0 85 0;
+#X connect 25 0 54 0;
+#X connect 25 0 106 0;
+#X connect 26 0 69 0;
+#X connect 26 0 104 0;
+#X connect 27 0 67 0;
+#X connect 27 0 105 0;
+#X connect 38 0 71 0;
+#X connect 38 0 89 0;
+#X connect 39 0 86 0;
+#X connect 39 0 72 0;
+#X connect 40 0 88 0;
+#X connect 40 0 90 0;
+#X connect 41 0 91 0;
+#X connect 41 0 87 0;
+#X connect 42 0 68 0;
+#X connect 43 0 68 0;
+#X connect 44 0 68 0;
+#X connect 45 0 68 0;
+#X connect 46 0 68 0;
+#X connect 47 0 68 0;
+#X connect 48 0 68 0;
+#X connect 49 0 68 0;
+#X connect 50 0 68 0;
+#X connect 51 0 68 0;
+#X connect 52 0 68 0;
+#X connect 53 0 68 0;
+#X connect 54 0 68 0;
+#X connect 55 0 68 0;
+#X connect 56 0 68 0;
+#X connect 57 0 68 0;
+#X connect 58 0 68 0;
+#X connect 59 0 68 0;
+#X connect 60 0 68 0;
+#X connect 61 0 68 0;
+#X connect 62 0 68 0;
+#X connect 63 0 68 0;
+#X connect 64 0 68 0;
+#X connect 65 0 68 0;
+#X connect 66 0 68 0;
+#X connect 67 0 68 0;
+#X connect 69 0 68 0;
+#X connect 70 0 68 0;
+#X connect 71 0 38 0;
+#X connect 72 0 39 0;
+#X connect 73 0 0 0;
+#X connect 74 0 1 0;
+#X connect 75 0 4 0;
+#X connect 76 0 5 0;
+#X connect 77 0 8 0;
+#X connect 78 0 9 0;
+#X connect 79 0 12 0;
+#X connect 80 0 13 0;
+#X connect 81 0 16 0;
+#X connect 82 0 17 0;
+#X connect 83 0 20 0;
+#X connect 84 0 21 0;
+#X connect 85 0 24 0;
+#X connect 86 0 68 0;
+#X connect 87 0 68 0;
+#X connect 88 0 68 0;
+#X connect 89 0 68 0;
+#X connect 90 0 40 0;
+#X connect 91 0 41 0;
+#X connect 92 0 2 0;
+#X connect 93 0 3 0;
+#X connect 94 0 6 0;
+#X connect 95 0 7 0;
+#X connect 96 0 10 0;
+#X connect 97 0 11 0;
+#X connect 98 0 14 0;
+#X connect 99 0 15 0;
+#X connect 100 0 18 0;
+#X connect 101 0 19 0;
+#X connect 102 0 22 0;
+#X connect 103 0 23 0;
+#X connect 104 0 26 0;
+#X connect 105 0 27 0;
+#X connect 106 0 25 0;
+#X coords 0 -1 1 1 140 510 2 100 100;
